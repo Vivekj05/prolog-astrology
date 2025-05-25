@@ -10,9 +10,11 @@ def query_prolog():
 
     for fact in facts:
         if fact.startswith('planet_degree_d1'):
-            clean_fact = fact.strip().rstrip('.')
-            prolog.assertz(clean_fact)
-
+           for planet in PLANETS:
+            if f"planet_degree_d1({planet.lower()}" in fact.lower():
+                clean_fact = fact.strip().rstrip('.')
+                prolog.assertz(clean_fact)
+                
     results=list(prolog.query("chart_rule(Effect,Cause)"))
 
     for result in results:
