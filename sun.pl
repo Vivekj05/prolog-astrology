@@ -69,7 +69,7 @@ chart_rule(Effect,Cause):-
 chart_rule(Effect,Cause):-
     planet_degree_d1(moon,Degree),
     Degree>=0,
-    Degree=<3.033,
+    Degree=<3.333,
     Cause='degree is between 0 and 3 degree 20 mins',
     Effect=' the native will have beautiful appearance and a very strong physic, will be a slim person. His constitution will be of a billious nature, will be liked by the learned persons. '.
 
@@ -122,8 +122,8 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(moon,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
-    Effect='the native will lose his father and will undergo extreme distress. He will be bagging; will lose both parents; will be a wanderer i.e. going from place to place. '.     
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
+    Effect='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.'.     
 
 chart_rule(Effect,Cause):-
     planet_degree_d1(moon,Degree),
@@ -137,7 +137,7 @@ chart_rule(Effect,Cause):-
 chart_rule(Effect,Cause):-
     planet_degree_d1(mars,Degree),
     Degree>=0,
-    Degree=<3.033,
+    Degree=<3.333,
     Cause='degree is between 0 and 3 degree 20 mins',
     Effect=' the native will be a person equal to a king, or be a ruler without doubt. He will be short statured and corpulent. He will be eloquent in speech and be free from diseases. '.
 
@@ -190,7 +190,7 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(mars,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
     Effect='the native is likely to be an ambassador, an undesirable person, goes to foreign countries and dies there due to enemy\'s weapon. '.     
 
 chart_rule(Effect,Cause):-
@@ -205,7 +205,7 @@ chart_rule(Effect,Cause):-
 chart_rule(Effect,Cause):-
     planet_degree_d1(mercury,Degree),
     Degree>=0,
-    Degree=<3.033,
+    Degree=<3.333,
     Cause='degree is between 0 and 3 degree 20 mins',
     Effect='the native will be wicked in his thoughts, be the worst human being. He will critisize all people,be devoid of all religious observations and is impure. '.
 
@@ -258,7 +258,7 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(mercury,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
     Effect='the native will be having lot of debts. He will live for 45 years and if survives, will become a Sanyasi and will have sufferings. '.     
 
 chart_rule(Effect,Cause):-
@@ -326,7 +326,7 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(jupiter,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
     Effect=' the native will be interested in practising Mantras or he may be an actor in drama or cinema and lives in undesirable manner.'.     
 
 chart_rule(Effect,Cause):-
@@ -341,7 +341,7 @@ chart_rule(Effect,Cause):-
 chart_rule(Effect,Cause):-
     planet_degree_d1(venus,Degree),
     Degree>=0,
-    Degree=<3.033,
+    Degree=<3.333,
     Cause='degree is between 0 and 3 degree 20 mins',
     Effect='the native will have a dark fat body. He will behave that he alone is intelligent. He will be an expert speaker. In his 20th year, he will be a water carrier.'.
 
@@ -371,7 +371,7 @@ chart_rule(Effect,Cause):-
     Degree>=13.333,
     Degree=<16.666,
     Cause='degree is between 13 degree 20 mins and 16 degree 40 mins ',
-    Effect='the native will eat limited food.  He will be loved by people and be an expert in music and administration of poisonous drugs. He will be carrying tales.'.
+    Effect='the native will eat limited food. He will be loved by people and be an expert in music and administration of poisonous drugs. He will be carrying tales.'.
 
 
 chart_rule(Effect,Cause):-
@@ -379,8 +379,7 @@ chart_rule(Effect,Cause):-
     Degree>=16.666,
     Degree=<20,
     Cause='degree is between 16 degree 40 mins and 20 degree',
-    Effect=' the native will be addicted to women, a wanderer. He will suffer from swelling of glands and testicles. He will be an eye specialist. 
-    '.     
+    Effect=' the native will be addicted to women, a wanderer. He will suffer from swelling of glands and testicles. He will be an eye specialist.'.     
 
 
 chart_rule(Effect,Cause):-
@@ -395,7 +394,7 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(venus,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
     Effect='the native may be a good speaker or may be a beggar. He will eat others\' food. He will live in foreign countries and will serve a merchant.'.     
 
 chart_rule(Effect,Cause):-
@@ -410,7 +409,7 @@ chart_rule(Effect,Cause):-
 chart_rule(Effect,Cause):-
     planet_degree_d1(saturn,Degree),
     Degree>=0,
-    Degree=<3.033,
+    Degree=<3.333,
     Cause='degree is between 0 and 3 degree 20 mins',
     Effect='the native will have long life and be a lazy man, will hate his father and be a very rich man. He talks too much. He will be quite happy.'.
 
@@ -462,7 +461,7 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(saturn,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
     Effect=' the native will keep weapons;interested in war; be a light-bodied person, live on other\'s food and will live upto 35 years.'.     
 
 chart_rule(Effect,Cause):-
@@ -477,7 +476,7 @@ chart_rule(Effect,Cause):-
 chart_rule(Effect,Cause):-
     planet_degree_d1(rahu,Degree),
     Degree>=0,
-    Degree=<3.033,
+    Degree=<3.333,
     Cause='degree is between 0 and 3 degree 20 mins',
     Effect='the native will be an intelligent man; will have a fat body. He will feed his father and himself with kingly food.'.
 
@@ -530,7 +529,7 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(rahu,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
     Effect='the native will like butter; takes soft food and will be helpful to all men.'.     
 
 chart_rule(Effect,Cause):-
@@ -545,7 +544,7 @@ chart_rule(Effect,Cause):-
 chart_rule(Effect,Cause):-
     planet_degree_d1(ketu,Degree),
     Degree>=0,
-    Degree=<3.033,
+    Degree=<3.333,
     Cause='degree is between 0 and 3 degree 20 mins',
     Effect='the native will construct dams (to prevent floods), will wander throughout the entire world '.
 
@@ -598,7 +597,7 @@ chart_rule(Effect,Cause):-
     planet_degree_d1(ketu,Degree),
     Degree>=23.333,
     Degree=<26.666,
-    Cause='the native will be wicked in his thoughts, will have surgery ulceration over his body and will be a miserable person.',
+    Cause='degree is between 23 degree 20 mins and 26 degree 40 mins',
     Effect='the native will be a great Yogi, be saluted by all people, be interested in reciting Ashta akshara Mantra.'.     
 
 chart_rule(Effect,Cause):-
