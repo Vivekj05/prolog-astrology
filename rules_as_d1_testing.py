@@ -32,8 +32,8 @@ def query_prolog(facts_d1):
 
     if results:
         for i, result in enumerate(results, 1):
-            print(f"{i}. Cause: {result['Cause']}")
-            print(f"    Effect: {result['Effect']}")
+            print(f"{i}. analysis_for: {result['Cause']}")
+            print(f"    analysis: {result['Effect']}")
             
             print("-" * 50)
     else:
